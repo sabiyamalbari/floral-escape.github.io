@@ -1,0 +1,116 @@
+body{
+background-color: rgb(226, 130, 154);
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    color:white
+}
+.heading{
+    text-align: center;
+    margin: 35px;
+}
+nav ul{
+font-size: 45px;
+margin: 0;
+padding:0;
+overflow: hidden;
+width: 100%;
+display:table;
+list-style-type: none;
+}
+nav li {
+    display: table-cell;
+  
+}
+li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background-color: rgb(200, 29, 101);
+    color: white;
+    padding: 10 10;
+    font-family: 'Niconne', cursive;
+}
+
+img{
+    height: 500px;
+    width: 350px;
+    display:block;
+    margin: auto;
+}
+.rose, .lily, .jasmine , .sunflower , .tulip, .hydrangeas {
+    padding: 10 10;
+    margin: 20px;
+    border-style: solid;
+    border-width: 10px;
+    width:25%;
+    display: inline-block;  
+    align-content: center;
+    border-color: rgb(200, 29, 101);
+    
+}
+h3{
+    font-family:'Niconne' ,'cursive';
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding:none;
+    margin: 0 0;
+}p{
+   font-family:'Niconne' ,'cursive';
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    padding:none;
+    margin: 10 10;
+ 
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    max-width: 680px;
+    margin:10 10;
+    text-align: center;
+    background-color: rgb(238, 131, 158);
+   
+}
+.card img{
+   
+    transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+    display: inline-block;
+    height:400px;
+    width:250px;
+    
+}
+.details{
+    position: relative;
+	text-align: right;
+	overflow: hidden;
+	padding: 30px;
+	height: 100%;
+	float: right;
+	width: 40%;
+}
+.details p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px ;
+}
+.price{
+    margin: 30px;
+}
+.card button{
+    padding: 18px;
+    background-color:rgb(200, 29, 101);
+    color: white;
+    border: none;
+    border-radius: 5px ;
+}
+footer p{
+    font-family: 'Dancing Script', cursive;
+    text-align: end;
+    font-size: 40px;
+}
